@@ -24,4 +24,8 @@ Author: Hans Paul Zizold
 
     Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
 
+## ACKNOWLEDMENTS: 
+
+Special thanks to Cindy Shin (https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
+And mainly all my gratitude to Microverse who is making possible many dreams come true.
 **Thanks MICROVERSE!!!**
