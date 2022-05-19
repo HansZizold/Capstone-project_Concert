@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concert in Bolivia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
+</head>
+
+<body>
+  <header class="header">
+    <ul class="header1">
+      <li><img src="/images/facebook.png" alt="Facebook"></li>
+      <li><img src="/images/twitter.png" alt="Twitter"></li>
+      <li>English</li>
+      <li>My Page</li>
+      <li>Logout</li>
+    </ul>
+    <div class="header2">
+      <div class="header25">
+        <nav class="dropdown">
+          <button type="button" id="button" class="button">
+            <img src="images/hamburguer.png" alt="Menu" onclick="dropmenu()">
+          </button>
+        </nav>            
+      
+        <div class="header225">
+          <a href="#" class="logo"><img src="/images/concert_logo.png" alt="Live Concert"></a>
+      
+        <!-- the ul has to have ulheader2 class to show -->
+          <ul id="dropmenu" class="hide"> 
+            <li class="lix"><a href="#" class="ex" onclick="closemenu()">x</a></li>
+            <li class="about"><a href="./about.html">About</a></li>
+            <li onclick="closemenu()"><a class="optionsacts" href="#mainprog">Performing Acts</a></li>
+            <li class="optionsheader2">Join</li>
+            <li class="optionsheader2">Sponsor</li>
+            <li class="optionsheader2">News</li>
+            <li class="campaign">CC Campaign</li>
+          </ul>
+        </div>
+
+        <div class="header3">
+          <p class="hello">"Hello! Sharing a world concert in Bolivia"</p>
+          <p class="massive">WELCOME TO THE MASSIVE LIVE CONCERT VERSION<br>2022</p>
+          <p class="extreme">An extreme massive live concert gathering world class artists for the rejoice of those people who loves good music and good performances transmitted to a more than 80 countries all around the world. </P>
+          <p class="date">2022.10.14(THU) ~ 15(FRI)</p>
+          <p>Estadium Hernando Siles, La Paz - Bolivia</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="mainprogram">
+    <h1 id="mainprog" class="mainprog">Performing Acts</h1>
+    <div class="maincontain">
+      <ul class="mainreferences">
+        <li><img src="./images/opening.png" alt="Billie Eilish"></li>
+        <li class="redtext">Billie Eilish</li>
+        <li class="normaltext">An American singer and songwriter. She is best known for her successful debut single, Ocean Eyes. She belongs to a family of musicians, she was destined to make a career in performing arts.</li>
+      </ul>
+      <ul class="mainreferences">
+        <li><img src="./images/secondact.png" alt="Lecture"></li>
+        <li class="redtext">U2</li>
+        <li class="normaltext">U2, Irish postpunk band that by the end of the 1980s had established itself not only as one of the world’s most popular bands but also as one of its most innovative</li>
+      </ul>
+      <ul class="mainreferences">
+        <li><img src="./images/thirdact.png" alt="Lecture"></li>
+        <li class="redtext">Madonna</li>
+        <li class="normaltext">Madonna, American singer, songwriter, actress, and entrepreneur immensely popular in the 1980s and ’90s becoming to be the "queen of pop" until our days.</li>
+      </ul>
+      <ul class="mainreferences">
+        <li><img src="./images/fourthact.png" alt="Lecture"></li>
+        <li class="redtext">Coldplay</li>
+        <li class="normaltext">Coldplay, British rock group whose melodic piano-driven anthems lifted it to the top of the pop music world in the early 21st century, formed in 1998, and leaded by pianist-vocalist Chris Martin.</li>
+      </ul>
+      <ul class="mainreferences">
+        <li><img src="./images/fifthact.png" alt="Lecture"></li>
+        <li class="redtext">Mariah Carey</li>
+        <li class="normaltext">Mariah Carey, American pop singer, noted for her remarkable vocal range. She was one of the most successful female performers of the 1990s and remained popular into the early 21st century.</li>
+      </ul>
+    </div>
+    <p class="tickets">Where to Buy Tickets</p>
+  </section>
+
+  <section class="moreinfo">
+    <h1 class="moretitle">More of our Performing Acts</h1>
+    <div class="maincards">
+    </div>
+
+    <div id="more" class="more">
+      <button type="button" class="morebutton" id="morebutton" onclick="showcards(1)">
+        <span class="moretext">MORE</span>
+        <span class="arrow">⌄</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- The class to show content is 'credits' -->
+  <footer id="credits1" class="hidecredits">
+    <div class="partnertitle">
+      <p class="partner">Partner</p>
+    </div>
+    <div class="partner">
+      <ul class="ulpartner">
+        <li><img src="./images/mozilla.png" alt="mozilla"></li>
+        <li><img src="./images/google.png" alt="Google"></li>
+        <li><img src="./images/naver.png" alt="NAVER"></li>
+        <li><img src="./images/daumkakao.png" alt="daumkakao"></li>
+        <li><img src="./images/airbnb.png" alt="airbnb"></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- The class to show content is 'credits2' -->
+  <footer id="credits2" class="hidecredits2">
+      <img src="./images/korea.png" alt="korea">
+      <p class="rights">2015 Creative Commons Korea. Some Rights Reserved</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
