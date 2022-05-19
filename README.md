@@ -13,6 +13,7 @@ The main and the about page were built for desktop and mobile sizes.
 
 ## HISTORY OF CHANGES
 **2022 May 16-18**: Version 1.0 released and presented for review.
+**2022 May 19**: First corrections executed. 
 
 ## LIVE DEMO: 
 
@@ -27,5 +28,6 @@ Author: Hans Paul Zizold
 ## ACKNOWLEDMENTS: 
 
 Special thanks to Cindy Shin (https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
+Thanks also to all the people that reviewed my code in order to make it better.
 And mainly all my gratitude to Microverse who is making possible many dreams come true.
 **Thanks MICROVERSE!!!**
