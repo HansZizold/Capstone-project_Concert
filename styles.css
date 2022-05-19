@@ -253,10 +253,16 @@ body {
 .mainprog {
   color: white;
   font-size: 24px;
-  border-bottom: 1px solid red;
   align-self: center;
-  margin: 40px 0 32px 0;
-  padding-bottom: 16px;
+  margin: 40px 0 16px 0;
+}
+
+.redline {
+  width: 40px;
+  height: 1.5px;
+  align-self: center;
+  background-color: #ff4f38;
+  margin-bottom: 24px;
 }
 
 .mainreferences {
@@ -301,12 +307,20 @@ body {
 
 .tickets {
   color: white;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
   background-color: #ef513c;
   align-self: center;
-  padding: 32px 64px;
-  margin: 32px 0;
+  padding: 32px 56px;
+  margin: 48px 0;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .tickets {
+    color: #babbbf;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 }
 
 @media (min-width: 768px) {
@@ -324,8 +338,7 @@ body {
 }
 
 .moretitle {
-  padding: 0 0 16px 0;
-  border-bottom: 2px solid #ef513c;
+  padding: 0;
 }
 
 .maincard {
@@ -429,6 +442,11 @@ be shown in desktop part */
   }
 }
 
+.maincard img {
+  width: 150px;
+  height: 150px;
+}
+
 @media (min-width: 768px) {
   .maincard img,
   .hidecard img {
@@ -448,7 +466,6 @@ be shown in desktop part */
   color: #919193;
   font-size: 24px;
   font-weight: bolder;
-  border-bottom: 2px solid #904a41;
 }
 
 .partner {
