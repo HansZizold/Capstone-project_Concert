@@ -47,9 +47,9 @@ The main and the about page were built for desktop and mobile sizes.
 
 Author: Hans Paul Zizold
     
- [Hans Zizold GITHUB](https://github.com/HansZizold)
+ [GITHUB](https://github.com/HansZizold)
 
- [Hans Zizold LINKEDN](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
+ [LINKEDIN](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
 
 ## ACKNOWLEDMENTS: 
 
