@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/nanumgothic.css">
+
+</head>
+<body>
+  <main class="maincontainer">
+    <header class="header">
+      <ul class="header1">
+        <li><img src="./images/facebook.png" alt="Facebook"></li>
+        <li><img src="./images/twitter.png" alt="Twitter"></li>
+        <li>Korean</li>
+        <li>My Page</li>
+        <li>Logout</li>
+      </ul>
+      <div class="header2">
+        <div class="header25">
+          <nav class="dropdown">
+            <button type="button" id="button" class="button">
+              <img src="./images/hamburguer.png" alt="Menu" onclick="dropmenu()">
+            </button>
+          </nav>            
+      
+          <div class="header225">
+            <a href="#" class="logo"><img src="./images/concert_logo.png" alt="Live Concert"></a>
+            <!-- the ul has to have ulheader2 class to show -->
+            <ul id="dropmenu" class="hide"> 
+              <li class="lix"><a href="#" class="ex" onclick="closemenu()">x</a></li>
+              <li class="about"><a href="./index.html" class="mainpage">Main Page</a></li>
+              <li onclick="closemenu()"><a class="optionsacts" href="#mainprog">Past Live Concerts</a></li>
+              <li class="optionsheader2">Join</li>
+              <li class="optionsheader2">Sponsor</li>
+              <li class="optionsheader2">News</li>
+            </ul>
+          </div>
+
+          <div class="header3">
+            <p class="hello">"Hello! Sharing a world concert in Bolivia"</p>
+            <p class="massive">MASSIVE LIVE CONCERT IN</p>
+            <p class="bolivia">BOLIVIA VERSION 2022</p>
+            <p class="extreme">This event has been the result of many efforts from the Bolivian community in USA and UK who worked with local Bolivian companies in order to coordinate all the logistics and operations. Also to convice the artists to believe in the objectives and to participate in this event.</p>
+            <p class="contact">Please contact us per Email for any further questions about to the first Bolivian Live Concert 2022.</p>
+            <address>
+              <a href="mailto:boliviaconcert@concert.org">Bolivia Concert</a>
+            </address>
+          </div>
+
+          <div class="header4">
+            <p class="logotext">Bolivia Massive Live Concert 2022 Logo</p>
+            <hr class="redline">
+            <p class="logodetail">The logo of the Bolivia Concert event was decided through the logo competition from 8.June to 7. July</p>
+            <img src="./images/concert_logo_big.png" alt="Bolivia Concert Logo">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="pastevents">
+      <h1 class="past">Past Live Concert events</h1>
+      <hr class="redline">
+      <p class="pasttext">Take a look at the last two Live Concert events which took place in Buenos Aires and in Warsaw</p>
+      <div class="events">
+        <div class="event1">
+          <p class="year">2019</p>
+          <p class="pastevent">Live Concert 2019 in Buenos Aires</p>
+        </div>
+        <div class="event2">
+          <p class="year">2016</p>
+          <p class="pastevent">Live Concert 2016 in Warsaw</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="credits">
+      <div class="partnertitle">
+        <p class="partner">Partner</p>
+      </div>
+      <hr class="redline2">
+      <div class="sponsor">
+        <ul class="ulpartner1">
+          <li><img src="./images/mozilla.png" alt="mozilla"></li>
+          <li><img src="./images/google.png" alt="Google"></li>
+          <li><img src="./images/naver.png" alt="NAVER"></li>
+        </ul>
+        <ul class="ulpartner2">
+          <li><img src="./images/daumkakao.png" alt="daumkakao"></li>
+          <li><img src="./images/airbnb.png" alt="airbnb"></li>
+        </ul>
+      </div>
+    </footer>
+  
+    <footer class="credits2">
+        <img src="./images/korea2.png" alt="korea">
+        <p class="rights">2015 Creative Commons Korea. Some Rights Reserved</p>
+    </footer>
+  
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
