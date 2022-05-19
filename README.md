@@ -22,7 +22,7 @@ The main and the about page were built for desktop and mobile sizes.
 
 ## LIVE DEMO: 
 
-https://hanszizold.github.io/Capstone-project_Concert/
+[Capstone Project](https://hanszizold.github.io/Capstone-project_Concert/)
 
 ## Getting Started
 
@@ -47,9 +47,9 @@ https://hanszizold.github.io/Capstone-project_Concert/
 
 Author: Hans Paul Zizold
     
-    [GITHUB](https://github.com/HansZizold)
+ [Hans Zizold GITHUB](https://github.com/HansZizold)
 
-    [Linkedin](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
+ [Hans Zizold LINKEDN](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
 
 ## ACKNOWLEDMENTS: 
 
