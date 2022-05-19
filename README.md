@@ -17,6 +17,7 @@ The main and the about page were built for desktop and mobile sizes.
 
 ## HISTORY OF CHANGES
 **2022 May 16-18**: Version 1.0 released and presented for review.
+
 **2022 May 19**: First corrections executed. 
 
 ## LIVE DEMO: 
