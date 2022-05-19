@@ -53,7 +53,9 @@ Author: Hans Paul Zizold
 
 ## ACKNOWLEDMENTS: 
 
-Special thanks to Cindy Shin (https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
-Thanks also to all the people that reviewed my code in order to make it better.
-And mainly all my gratitude to Microverse who is making possible many dreams come true.
+- Special thanks to [Cindy Shin](https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
+
+- Thanks also to all the people that reviewed my code in order to make it better.
+
+- And mainly all my gratitude to Microverse who is making possible many dreams come true.
 **Thanks MICROVERSE!!!**
