@@ -7,13 +7,13 @@ The main characteristics of the page were maintained as possible and the images 
 The main and the about page were built for desktop and mobile sizes.
 
 ## BUILT WITH
-*Visual Studio Code*
+- *Visual Studio Code*
 
-*Github Desktop application*
+- *Github Desktop application*
 
-*Linters for HTML/CSS/JS*
+- *Linters for HTML/CSS/JS*
 
-*image and icon resources were collected from royalte free sites on the Internet*
+- *image and icon resources were collected from royalte free sites on the Internet*
 
 ## HISTORY OF CHANGES
 **2022 May 16-18**: Version 1.0 released and presented for review.
