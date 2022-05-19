@@ -47,9 +47,9 @@ https://hanszizold.github.io/Capstone-project_Concert/
 
 Author: Hans Paul Zizold
     
-    GITHUB: https://github.com/HansZizold
+    [GITHUB](https://github.com/HansZizold)
 
-    Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
+    [Linkedin](https://www.linkedin.com/in/hans-paul-zizold-37129037/)
 
 ## ACKNOWLEDMENTS: 
 
