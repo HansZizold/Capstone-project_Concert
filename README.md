@@ -57,5 +57,13 @@ Author: Hans Paul Zizold
 
 - Thanks also to all the people that reviewed my code in order to make it better.
 
+<<<<<<< Updated upstream
 - And mainly all my gratitude to Microverse who is making possible many dreams come true.
+=======
+## ACKNOWLEDMENTS: 
+
+Special thanks to Cindy Shin (https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
+
+
+>>>>>>> Stashed changes
 **Thanks MICROVERSE!!!**
