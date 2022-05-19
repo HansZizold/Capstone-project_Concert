@@ -391,7 +391,6 @@ address a {
 
 .event1 {
   background-image: url(./images/event1.png);
-  /* background-color: #ef513c; */
   background-repeat: no-repeat;
   background-size: 100%;
   filter: opacity(0.4) drop-shadow(0 0 0 #ef513c);
@@ -405,7 +404,6 @@ address a {
 
 .event2 {
   background-image: url(./images/event2.png);
-  /* background-color: #ef513c; */
   background-repeat: no-repeat;
   background-size: 100%;
   filter: opacity(0.4) drop-shadow(0 0 0 #ef513c);
@@ -421,7 +419,7 @@ address a {
   .event1,
   .event2 {
     width: 328px;
-    height: 22vh;
+    height: 28vh;
     margin: 0 16px 80px 0;
   }
 }
@@ -455,7 +453,6 @@ address a {
   color: #919193;
   font-size: 24px;
   font-weight: bolder;
-  /* border-bottom: 2px solid #904a41; */
 }
 
 .partner {
@@ -473,6 +470,11 @@ address a {
 
 .sponsor {
   max-width: 100vw;
+}
+
+.credits2 img {
+  width: 32vw;
+  margin-right: 16px;
 }
 
 .ulpartner1,
@@ -514,11 +516,6 @@ address a {
   .rights {
     color: #aeaeae;
   }
-}
-
-.credits2 img {
-  width: 32vw;
-  margin-right: 16px;
 }
 
 @media (min-width: 768px) {
