@@ -19,7 +19,9 @@ The main and the about page were built for desktop and mobile sizes.
 Hans Zizold's Portfolio: https://hanszizold.github.io/Capstone-project_Concert/
 
 Author: Hans Paul Zizold
+
     GITHUB: https://github.com/HansZizold
+
     Linkedin: https://www.linkedin.com/in/hans-paul-zizold-37129037/
 
 **Thanks MICROVERSE!!!**
