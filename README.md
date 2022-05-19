@@ -53,7 +53,7 @@ Author: Hans Paul Zizold
 
 ## ACKNOWLEDMENTS: 
 
-- Special thanks to [Cindy Shin](https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07) who is the author of the original design that this project is based on.
 
 - Thanks also to all the people that reviewed my code in order to make it better.
 
