@@ -1,7 +1,5 @@
-# Capstone-project_Concert
-A page about an imaginary concert with my favorite singers and groups
-
 # CAPSTONE PROJECT
+A page about an imaginary concert with my favorite singers and groups
 
 ## DESCRIPTION
 In this project the CREATIVE COMMONS GLOBAL SUBMIT page will be replicated and the theme was changed to a imaginary concert in my country Bolivia.
