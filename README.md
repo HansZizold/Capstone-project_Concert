@@ -16,7 +16,7 @@ The main and the about page were built for desktop and mobile sizes.
 
 ## LIVE DEMO: 
 
-Hans Zizold's Portfolio: https://hanszizold.github.io/Capstone-project_Concert/
+Hans Zizold's Capstone Project: https://hanszizold.github.io/Capstone-project_Concert/
 
 Author: Hans Paul Zizold
     
