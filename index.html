@@ -23,7 +23,7 @@
       <div class="header25">
         <nav class="dropdown">
           <button type="button" id="button" class="button">
-            <img src="./images/hamburguer.png" alt="Hamburguer Menu" onclick="dropmenu()">
+            <img id="menuIcon" src="./images/hamburguer.png" alt="Hamburguer Menu">
           </button>
         </nav>            
       
@@ -32,9 +32,9 @@
       
         <!-- the ul has to have ulheader2 class to show -->
           <ul id="dropmenu" class="hide"> 
-            <li class="lix"><a href="#" class="ex" onclick="closemenu()">x</a></li>
+            <li class="lix"><a id="closeMenuIcon" href="#" class="ex">x</a></li>
             <li class="about"><a href="./about.html">About</a></li>
-            <li onclick="closemenu()"><a class="optionsacts" href="#mainprog">Performing Acts</a></li>
+            <li id="goToActs"><a class="optionsacts" href="#mainprog">Performing Acts</a></li>
             <li class="optionsheader2">Join</li>
             <li class="optionsheader2">Sponsor</li>
             <li class="optionsheader2">News</li>
@@ -93,7 +93,7 @@
     </div>
 
     <div id="more" class="more">
-      <button type="button" class="morebutton" id="morebutton" onclick="showcards(1)" aria-label="Click to see more performing acts">
+      <button type="button" class="morebutton" id="morebutton" aria-label="Click to see more performing acts">
         <span class="moretext">MORE</span>
         <span class="arrow">⌄</span>
       </button>
@@ -123,6 +123,7 @@
       <p class="rights">2015 Creative Commons Korea. Some Rights Reserved</p>
   </footer>
 
-  <script src="scripts.js"></script>
+  <script src="scripts/hamburguer.js"></script>
+  <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
