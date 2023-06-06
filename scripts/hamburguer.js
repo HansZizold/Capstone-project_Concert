@@ -1,5 +1,4 @@
 // HAMBURGUER PART
-
 function dropmenu() {
   const dropmenu = document.querySelector('#dropmenu');
   dropmenu.classList.add('ulheader2');
@@ -18,5 +17,18 @@ function closemenu() {
   button.classList.add('button');
 }
 
-dropmenu();
-closemenu();
+const menuIcon = document.getElementById('menuIcon');
+menuIcon.addEventListener('click', dropmenu);
+
+const closeMenuIcon = document.getElementById('closeMenuIcon');
+closeMenuIcon.addEventListener('click', closemenu);
+
+const gotoacts = document.getElementById('goToActs');
+if (gotoacts) {
+  gotoacts.addEventListener('click', closemenu);
+}
+
+const pastacts = document.getElementById('pastActs');
+if (pastacts) {
+  pastacts.addEventListener('click', closemenu);
+}

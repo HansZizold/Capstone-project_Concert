@@ -1,3 +1,9 @@
+:root {
+  --primary-font: 'Nanum Gothic', arial, helvetica, sans-serif;
+  --primary-color: #888;
+  --accent-color: #ef513c;
+}
+
 * {
   padding: 0;
 }
@@ -11,15 +17,22 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
-  font-family: 'Nanum Gothic', Arial, Helvetica, sans-serif;
+  font-family: var(--primary-font);
 }
 
-.header1 {
+.header1,
+.logo,
+.hide,
+.hide2,
+.hidecard,
+.hidemore,
+.hidecredits,
+.hidecredits2 {
   display: none;
 }
 
 .header2 {
-  color: #888;
+  color: var(--primary-color);
   font-weight: bold;
   background-image: url("./images/mainmobilebackground.png");
   background-size: 100%;
@@ -41,24 +54,7 @@ body {
 
 .ulheader2 li a {
   text-decoration: none;
-  color: #888;
-}
-
-@media (min-width: 768px) {
-  .ulheader2 li a {
-    /* display: none; */
-  }
-}
-
-@media (min-width: 768px) {
-  .ulheader2 li,
-  .hide li {
-    background-color: white;
-    margin: 0 18px;
-    align-self: center;
-    list-style: none;
-    padding-left: 0;
-  }
+  color: var(--primary-color);
 }
 
 .button {
@@ -66,10 +62,6 @@ body {
   margin: 24px 0 0 24px;
   background-color: white;
   cursor: pointer;
-}
-
-.logo {
-  display: none;
 }
 
 .ex {
@@ -82,34 +74,14 @@ body {
   color: white;
 }
 
-@media (min-width: 768px) {
-  .ex {
-    display: none;
-  }
-}
-
-.about:hover,
-.optionsheader2:hover,
-.campaign:hover {
+#goToActs:hover,
+.about:hover {
   font-size: 24px;
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .hide li a {
-    text-decoration: none;
-    color: #888;
-  }
-}
-
-.hide {
-  display: none;
-}
-
 .header3 {
-  margin-left: 24px;
-  margin-right: 16px;
-  margin-top: 80px;
+  margin: 80px 16px 0 24px;
 }
 
 .hello {
@@ -123,124 +95,15 @@ body {
   font-weight: bolder;
 }
 
-@media (min-width: 768px) {
-  .massive {
-    max-width: 70%;
-    margin-bottom: 8px;
-  }
-}
-
 .extreme {
   border: 4px solid white;
   padding: 4px 8px 16px 8px;
-}
-
-@media (min-width: 768px) {
-  .extreme {
-    max-width: 50%;
-  }
 }
 
 .date {
   font-size: 180%;
   font-weight: bolder;
   color: #3e3e3e;
-}
-
-@media (min-width: 768px) {
-  .date {
-    margin-bottom: 12px;
-  }
-}
-
-.hide2 {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .header {
-    display: flex;
-    flex-direction: column;
-    background-color: #3e3e3e;
-    width: 100%;
-  }
-
-  .header1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    width: 80%;
-    height: 4vh;
-    margin: 0;
-    padding-left: 0;
-    margin-left: 0;
-    color: white;
-  }
-
-  .header1 li {
-    list-style: none;
-    margin: 0 12px;
-  }
-
-  .header2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: auto;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-    background-image: none;
-    color: #888;
-    font-weight: bold;
-  }
-
-  .header25 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .header225 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .button {
-    display: none;
-  }
-
-  .logo {
-    display: flex;
-    padding: 0;
-    margin: 0;
-  }
-
-  .ulheader2,
-  .hide {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-  }
-
-  .about {
-    color: #ef513c;
-  }
-
-  .campaign {
-    border: 4px solid #ef513c;
-    padding: 4px;
-    color: #ef513c;
-  }
-
-  .header3 {
-    background-image: url("./images/maindesktopbackground.png");
-    background-size: 100%;
-    margin: 0;
-    padding: 80px 16px 0 128px;
-  }
 }
 
 .mainprogram {
@@ -272,31 +135,13 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (min-width: 768px) {
-  .mainreferences {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 200px;
-    padding: 16px;
-    margin: 0 8px;
-  }
-}
-
 .redtext {
   align-self: center;
   margin: 0 24px;
   min-width: 11vw;
-  color: #ef513c;
+  color: var(--accent-color);
   font-size: 14px;
   font-weight: bold;
-}
-
-@media (min-width: 768px) {
-  .redtext {
-    min-width: auto;
-    padding: 12px 0;
-  }
 }
 
 .normaltext {
@@ -308,27 +153,11 @@ body {
 .tickets {
   color: white;
   font-size: 20px;
-  background-color: #ef513c;
+  background-color: var(--accent-color);
   align-self: center;
   padding: 32px 56px;
   margin: 48px 0;
   border: none;
-}
-
-@media (min-width: 768px) {
-  .tickets {
-    color: #babbbf;
-    background-color: transparent;
-    text-decoration: underline;
-  }
-}
-
-@media (min-width: 768px) {
-  .maincontain {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
 }
 
 .moreinfo {
@@ -344,30 +173,6 @@ body {
 .maincard {
   display: flex;
   margin: 16px;
-}
-
-.hidecard {
-  display: none;
-}
-
-.hidemore {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .maincard,
-  .hidecard {
-    width: 50%;
-  }
-}
-
-/* 'hidecard' class has to hide in mobile part but it has tbod
-be shown in desktop part */
-@media (min-width: 768px) {
-  .hidecard {
-    display: flex;
-    margin: 16px;
-  }
 }
 
 .cardcontent {
@@ -390,7 +195,7 @@ be shown in desktop part */
 }
 
 .cardline {
-  border-bottom: 2px solid #888;
+  border-bottom: 2px solid var(--primary-color);
   margin-top: 8px;
   width: 32px;
 }
@@ -403,12 +208,6 @@ be shown in desktop part */
 
 .more {
   margin-bottom: 24px;
-}
-
-@media (min-width: 768px) {
-  .more {
-    display: none;
-  }
 }
 
 .morebutton {
@@ -427,32 +226,9 @@ be shown in desktop part */
   color: #ff4f38;
 }
 
-@media (min-width: 768px) {
-  .cardgroup1,
-  .cardgroup2,
-  .cardgroup3 {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 960px) {
-  .maincards {
-    max-width: 80%;
-  }
-}
-
 .maincard img {
   width: 150px;
   height: 150px;
-}
-
-@media (min-width: 768px) {
-  .maincard img,
-  .hidecard img {
-    width: 180px;
-    height: 180px;
-  }
 }
 
 .credits {
@@ -477,13 +253,6 @@ be shown in desktop part */
   list-style: none;
 }
 
-@media (min-width: 768px) {
-  .ulpartner {
-    display: flex;
-    flex-direction: row;
-  }
-}
-
 .credits2 {
   background-color: #f2f2f2;
   display: flex;
@@ -492,26 +261,191 @@ be shown in desktop part */
   padding: 24px 0;
 }
 
-@media (min-width: 768px) {
-  .credits2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-}
-
 .rights {
   color: #77777a;
   font-weight: bold;
   font-size: 16px;
 }
 
-.hidecredits,
-.hidecredits2 {
-  display: none;
-}
-
 @media (min-width: 768px) {
+  .ulheader2 li,
+  .hide li {
+    background-color: white;
+    margin: 0 18px;
+    align-self: center;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .ex,
+  .button,
+  .more {
+    display: none;
+  }
+
+  .hide li a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  .massive {
+    max-width: 70%;
+    margin-bottom: 8px;
+  }
+
+  .extreme {
+    max-width: 50%;
+  }
+
+  .date {
+    margin-bottom: 12px;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background-color: #3e3e3e;
+    width: 100%;
+  }
+
+  .header1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    height: 4vh;
+    margin: 0;
+    padding-left: 0;
+    color: white;
+  }
+
+  .header1 li {
+    list-style: none;
+    margin: 0 12px;
+  }
+
+  .header2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    background-image: none;
+    color: var(--primary-color);
+    font-weight: bold;
+  }
+
+  .header25 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header225 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .logo {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .ulheader2,
+  .hide {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+  }
+
+  .about {
+    color: var(--accent-color);
+  }
+
+  .campaign {
+    border: 4px solid var(--accent-color);
+    padding: 4px;
+    color: var(--accent-color);
+  }
+
+  .header3 {
+    background-image: url("./images/maindesktopbackground.png");
+    background-size: 100%;
+    margin: 0;
+    padding: 80px 16px 0 128px;
+  }
+
+  .mainreferences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 16px;
+    margin: 0 8px;
+  }
+
+  .redtext {
+    min-width: auto;
+    padding: 12px 0;
+  }
+
+  .tickets {
+    color: #babbbf;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .maincontain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .maincard,
+  .hidecard {
+    width: 50%;
+  }
+
+  /* 'hidecard' class has to hide in mobile part but it has tbod
+  be shown in desktop part */
+  .hidecard {
+    display: flex;
+    margin: 16px;
+  }
+
+  .cardgroup1,
+  .cardgroup2,
+  .cardgroup3 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .maincards {
+    max-width: 80%;
+  }
+
+  .maincard img,
+  .hidecard img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .ulpartner {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .credits2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .hidecredits {
     background-color: #414246;
     display: flex;
