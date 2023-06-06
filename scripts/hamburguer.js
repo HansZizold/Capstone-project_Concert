@@ -24,4 +24,11 @@ const closeMenuIcon = document.getElementById('closeMenuIcon');
 closeMenuIcon.addEventListener('click', closemenu);
 
 const gotoacts = document.getElementById('goToActs');
-gotoacts.addEventListener('click', closemenu);
+if (gotoacts) {
+  gotoacts.addEventListener('click', closemenu);
+}
+
+const pastacts = document.getElementById('pastActs');
+if (pastacts) {
+  pastacts.addEventListener('click', closemenu);
+}

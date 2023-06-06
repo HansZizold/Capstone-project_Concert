@@ -33,7 +33,7 @@ const artistcards = [
   {
     image: './images/secret.png',
     name: 'Surprise Act',
-    char: 'Just for Bs 50 you can participate in a contest to guess which will be our surprice act. The collection will ne donated to "Aldeas SOS" organization for supporting the homeless child',
+    char: 'Just for Bs 50 you can participate in a contest to guess which will be our surprice act. The collection will be donated to "Aldeas SOS" organization for supporting the homeless child',
     quote: '“I have found that among its other benefits, giving liberates the soul of the giver."',
   },
 ];
