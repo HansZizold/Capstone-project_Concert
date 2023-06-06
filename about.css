@@ -421,6 +421,7 @@ address a {
   .ex {
     display: none;
   }
+
   .hello {
     display: none;
   }
@@ -432,6 +433,7 @@ address a {
   .pasttext {
     margin-bottom: 40px;
   }
+
   .events {
     display: flex;
     flex-direction: row;

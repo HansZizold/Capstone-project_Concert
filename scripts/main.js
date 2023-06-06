@@ -1,5 +1,5 @@
 import artistcards from './artistcards.js';
-import { createCardGroup } from './cardcreator.js';
+import createCardGroup from './cardcreator.js';
 
 // SHOW HIDDEN CARDS AND CREDITS
 function showcards(isShowCards) {
@@ -27,7 +27,7 @@ function showcards(isShowCards) {
 }
 showcards(false);
 const showCards = document.getElementById('morebutton');
-showCards.addEventListener('click', function() { showcards(true); });
+showCards.addEventListener('click', () => { showcards(true); });
 
 // store in 'maincards' variable the position of class 'maincards'
 const maincards = document.querySelector('.maincards');

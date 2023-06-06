@@ -1,9 +1,9 @@
 // FUNCTION TO INSERT MORE PERFORMING ACTS
-export function createCardGroup(cardClass, start, end, cardsArray) {
+export default function createCardGroup(cardClass, start, end, cardsArray) {
   const cardGroup = document.createElement('div');
   cardGroup.className = `cardgroup${start / 2 + 1}`;
 
-  for (let i = start; i < end; i++) {
+  for (let i = start; i < end; i += 1) {
     const card = document.createElement('div');
     card.className = `${cardClass}`;
     card.innerHTML = `
